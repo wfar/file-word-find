@@ -21,6 +21,8 @@ def word_find():
     except FileNotFoundError:
         print('File not found.')
         word_find()
-
-word_find()
+        
+        
+in __name__ == "__main__":
+    word_find()
 
