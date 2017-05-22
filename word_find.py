@@ -23,6 +23,6 @@ def word_find():
         word_find()
         
         
-in __name__ == "__main__":
+if __name__ == "__main__":
     word_find()
 
